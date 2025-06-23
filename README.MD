@@ -33,12 +33,12 @@ Este proyecto simula un proceso completo de análisis y generación de reportes 
    - Filtra registros inválidos (precios/cantidades <= 0)
    - Exporta como `Ventas_limpio.csv`
 
-2. **Carga en base de datos** (`subida_mysql.py`):  
+2. **Carga en base de datos** (`subirdb.py`):  
    - Elimina columna basura si existe (`MyUnknownColumn`)
    - Limpia tabla `ventas`
    - Inserta datos del CSV limpio a MySQL
 
-3. **Generación de reportes** (`exportar_excel.py`):  
+3. **Generación de reportes** (`exportar.py`):  
    - Agrupa ventas por categoría
    - Exporta archivo Excel con dos hojas:
      - Datos limpios
