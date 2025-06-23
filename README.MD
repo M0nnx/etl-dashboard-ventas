@@ -23,27 +23,6 @@ Este proyecto simula un proceso completo de análisis y generación de reportes 
 
 ---
 
-## ⚙️ Estructura del proyecto
-
-etl-dashboard-ventas/
-├── data/
-│   ├── Ventas.csv                 
-│   └── Ventas_limpio.csv          
-│
-├── reportes/                     
-│   └── reporte_ventas_YYYY-MM-DD.xlsx
-│
-├── etl.py                         
-├── exportar_excel.py              
-├── subida_mysql.py                
-├── eda.ipynb                      
-│
-├── requirements.txt               
-├── .gitignore                     
-└── README.md        
-
----
-
 ## 🔄 Flujo del proyecto
 
 1. **ETL** (`etl.py`):  
