@@ -2,7 +2,6 @@ import pandas as pd
 from datetime import datetime
 ruta_csv = "data/Ventas.csv"
 
-
 def cargar_datos(ruta_csv:str)-> pd.DataFrame:
     df = pd.read_csv(ruta_csv)
     df = df.drop(columns=["Unnamed: 0"], errors='ignore')
