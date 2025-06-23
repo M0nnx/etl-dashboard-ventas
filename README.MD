@@ -26,16 +26,21 @@ Este proyecto simula un proceso completo de análisis y generación de reportes 
 ## ⚙️ Estructura del proyecto
 
 etl-dashboard-ventas/
-├── data/ # Contiene archivo ventas original y limpio
-│ ├── Ventas.csv
-│ └── Ventas_limpio.csv
-├── reportes/ # Exportaciones Excel automáticas por fecha
-├── scripts
-│   ├── etl.py # Carga, limpieza y transformación de datos
-│   ├── exportar_excel.py # Exportación automatizada de reportes Excel
-│   ├── subida_mysql.py # Inserción de datos limpios en MySQL
-├── requirements.txt # Dependencias del proyecto
-└── README.md # Documentación del proyecto
+├── data/
+│   ├── Ventas.csv                 
+│   └── Ventas_limpio.csv          
+│
+├── reportes/                     
+│   └── reporte_ventas_YYYY-MM-DD.xlsx
+│
+├── etl.py                         
+├── exportar_excel.py              
+├── subida_mysql.py                
+├── eda.ipynb                      
+│
+├── requirements.txt               
+├── .gitignore                     
+└── README.md        
 
 ---
 
@@ -67,8 +72,6 @@ etl-dashboard-ventas/
 ---
 
 ## 📊 Visualización del dashboard
-
-> Reemplaza esta imagen con una real capturada de Power BI o Excel
 
 ![dashboard](./assets/dashboard_ventas.png)
 
