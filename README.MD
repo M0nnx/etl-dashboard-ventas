@@ -36,6 +36,9 @@ etl-dashboard-ventas/
 │   ├── subida_mysql.py # Inserción de datos limpios en MySQL
 ├── requirements.txt # Dependencias del proyecto
 └── README.md # Documentación del proyecto
+
+---
+
 ## 🔄 Flujo del proyecto
 
 1. **ETL** (`etl.py`):  
