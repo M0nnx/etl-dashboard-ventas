@@ -16,9 +16,9 @@ Este proyecto simula un proceso completo de análisis y generación de reportes 
 
 ## 🧩 Stack Tecnológico
 
-- **Lenguaje:** Python 3
+- **Lenguaje:** Python
 - **Librerías:** Pandas, SQLAlchemy, OpenPyXL, Seaborn, Matplotlib
-- **Base de Datos:** MySQL 8
+- **Base de Datos:** MySQL 
 - **Herramientas de visualización:** Excel, Power BI
 
 ---
